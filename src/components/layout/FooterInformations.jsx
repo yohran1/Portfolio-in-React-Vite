@@ -9,25 +9,25 @@ export default function FooterInformations(){
                 <div className={style.boxs}>
                     <h3>Inicio</h3>
                     <ul>
-                        <li><Link to="/projeto/srmackfly">Home</Link></li>
-                        <li><Link to="/projeto/pecaOnline">Produtos</Link></li>
-                        <li><a href="/projeto/error">Download</a></li>
+                        <li><Link to="/Portfolio-in-React-Vite/projeto/srmackfly">Home</Link></li>
+                        <li><Link to="/Portfolio-in-React-Vite/projeto/pecaOnline">Produtos</Link></li>
+                        <li><a href="/Portfolio-in-React-Vite/projeto/error">Download</a></li>
                     </ul>
                 </div>
                 <div className={style.boxs}>
                     <h3>Informações</h3>
                     <ul>
-                        <li><a href="/projeto/error">Blog</a></li>
-                        <li><Link to="/projeto/contato">Contato</Link></li>
-                        <li><Link to="/projeto/contato">Email</Link></li>
+                        <li><a href="/Portfolio-in-React-Vite/projeto/error">Blog</a></li>
+                        <li><Link to="/Portfolio-in-React-Vite/projeto/contato">Contato</Link></li>
+                        <li><Link to="/Portfolio-in-React-Vite/projeto/contato">Email</Link></li>
                     </ul>
                 </div>
                 <div className={style.boxs}>
                     <h3>Suporte</h3>
                     <ul>
-                        <li><a href="/projeto/error">FAQ</a></li>
-                        <li><Link to="/projeto/contato">Telefone</Link></li>
-                        <li><a href="/projeto/error">Chat</a></li>
+                        <li><a href="/Portfolio-in-React-Vite/projeto/error">FAQ</a></li>
+                        <li><Link to="/Portfolio-in-React-Vite/projeto/contato">Telefone</Link></li>
+                        <li><a href="/Portfolio-in-React-Vite/projeto/error">Chat</a></li>
                     </ul>
                 </div>
 

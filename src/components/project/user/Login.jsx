@@ -56,10 +56,10 @@ export default function Login(){
                     <SubmitButton text='Login' onClick={enviarDados}/>
                 <div className={style.linksLogin}>
                 <div className={style.forgot_password}>
-                    <Link to="/projeto/forgotpassword">Esqueceu sua senha?</Link>
+                    <Link to="/Portfolio-in-React-Vite/projeto/forgotpassword">Esqueceu sua senha?</Link>
                 </div>
                     <div className={style.forgot_password}>
-                        <Link to="/projeto/register">Cadastre-se</Link>
+                        <Link to="/Portfolio-in-React-Vite/projeto/register">Cadastre-se</Link>
                     </div>
                 </div>
                 <div className={style.social_media_login}>

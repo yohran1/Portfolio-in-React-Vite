@@ -10,7 +10,7 @@ export default function PrivateRoute({ path: Path, element: Component, ...rest }
       
          isAuthenticated ? <Component /> : 
         (
-          <Navigate to="/projeto/login" state={{ from: location }} replace={true} />
+          <Navigate to="/Portfolio-in-React-Vite/projeto/login" state={{ from: location }} replace={true} />
         )
     
       }

@@ -11,7 +11,7 @@ export default function Error(){
             <NavBar />
             <div className={style.error}>
                 <h1>Error 403</h1>
-                <LinkButton to='/projeto/srmackfly' text='Retornar a página principal'/>
+                <LinkButton to='/Portfolio-in-React-Vite/projeto/srmackfly' text='Retornar a página principal'/>
             </div>
             
             <Footer />

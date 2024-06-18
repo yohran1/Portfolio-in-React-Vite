@@ -24,16 +24,16 @@ function App() {
     <BrowserRouter>
         <Provider store={store}>
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/sobre' element={<Sobre />} />
-            <Route path='/projeto/login' element={<Login />} />
-            <Route path='/projeto/register' element={<Register />} />
-            <Route path='/projeto/forgotpassword' element={<ForgotPassword />} />
-            <Route path='/projeto/srmackfly' element={<SrMackfly />}/>
-            <Route path='/projeto/pecaOnline' element={<PecaOnline />} />
-            <Route path='/projeto/contato' element={<Contato />} />
-            <Route path='/projeto/sobre' element={<SobreProject />} />
-            <Route path='/projeto/error' element={<Error />} />
+            <Route path='/Portfolio-in-React-Vite/' element={<Home />} />
+            <Route path='/Portfolio-in-React-Vite/sobre' element={<Sobre />} />
+            <Route path='/Portfolio-in-React-Vite/projeto/login' element={<Login />} />
+            <Route path='/Portfolio-in-React-Vite/projeto/register' element={<Register />} />
+            <Route path='/Portfolio-in-React-Vite/projeto/forgotpassword' element={<ForgotPassword />} />
+            <Route path='/Portfolio-in-React-Vite/projeto/srmackfly' element={<SrMackfly />}/>
+            <Route path='/Portfolio-in-React-Vite/projeto/pecaOnline' element={<PecaOnline />} />
+            <Route path='/Portfolio-in-React-Vite/projeto/contato' element={<Contato />} />
+            <Route path='/Portfolio-in-React-Vite/projeto/sobre' element={<SobreProject />} />
+            <Route path='/Portfolio-in-React-Vite/projeto/error' element={<Error />} />
           </Routes> 
         </Provider>
     </BrowserRouter>

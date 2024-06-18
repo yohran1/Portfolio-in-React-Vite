@@ -8,15 +8,15 @@ export default function HeaderLocation(){
         <>
         <header className={style.header}>
             <p>Retirada, o mais rápido possível (em 15 minutos)</p>
-            <a href="/projeto/pecaOnline">Alterar</a>
+            <a href="/Portfolio-in-React-Vite/projeto/pecaOnline">Alterar</a>
         </header>
         <div className={style.menu}>
             <h3>MENU DE BOLOS</h3>
             <ul>
-                <Link to='/projeto/pecaOnline'>
+                <Link to='/Portfolio-in-React-Vite/projeto/pecaOnline'>
                     <li>Bolos de Casamento</li>
                 </Link>
-                <Link to='/projeto/pecaOnline'>
+                <Link to='/Portfolio-in-React-Vite/projeto/pecaOnline'>
                     <li>Personalize Seu Bolo</li>
                 </Link>
                 

@@ -20,16 +20,16 @@ export default function NavBar(){
             <div className={style.header}>
                 {/* <h3>Logo</h3> */}
                 <div className={style.logo}>
-                 <Link to='/projeto/srmackfly'>
+                 <Link to='/Portfolio-in-React-Vite/projeto/srmackfly'>
                      <img src={icon} alt={icon} />
                      <p>Bolos de Casamento Por Sr-MackFly</p>
                  </Link>
              </div>
                 <nav className={isNavVisible ? style.responsive_nav : ''}>
-                    <Link to='/projeto/srmackfly'>Página Inicial</Link>
-                    <Link to='/projeto/pecaOnline'>Peça Online</Link>
-                    <Link to='/projeto/contato'>Contato</Link>
-                    <Link to='/projeto/sobre'>Sobre</Link>
+                    <Link to='/Portfolio-in-React-Vite/projeto/srmackfly'>Página Inicial</Link>
+                    <Link to='/Portfolio-in-React-Vite/projeto/pecaOnline'>Peça Online</Link>
+                    <Link to='/Portfolio-in-React-Vite/projeto/contato'>Contato</Link>
+                    <Link to='/Portfolio-in-React-Vite/projeto/sobre'>Sobre</Link>
                     <button className={`${style.nav_btn} ${style.nav_close_btn}`} onClick={mostrarNavBar}>
                         <FaTimes />
                     </button>

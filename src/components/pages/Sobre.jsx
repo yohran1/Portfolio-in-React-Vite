@@ -24,7 +24,7 @@ export default function Sobre(){
                    cada vez mais, a cada dia superando um novo obstáculo. 
                    </p>
                    <div className={style.btnHome}>
-                        <Link to='/'>Home</Link>
+                        <Link to='/Portfolio-in-React-Vite/'>Home</Link>
                    </div>
             </section>
         </div>

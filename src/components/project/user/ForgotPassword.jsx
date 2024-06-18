@@ -25,7 +25,7 @@ export default function ForgotPassword(){
                     
                     <div className={style.buttons}>
                         <SubmitButton text='Salvar'/>   
-                        <Link to='/projeto/login'>
+                        <Link to='/Portfolio-in-React-Vite/projeto/login'>
                             <SubmitButton text='Voltar'></SubmitButton> 
                         </Link>
                     </div>

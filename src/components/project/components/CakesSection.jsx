@@ -25,7 +25,7 @@ export default function CakesSection(){
                 <div className={style.cakes_box}>
                     <div className={style.image_container}>
                         <img src={cake_2} alt='Cake' />
-                        <Link to='/projeto/pecaOnline'>
+                        <Link to='/Portfolio-in-React-Vite/projeto/pecaOnline'>
                             <button>Faça seu pedido online</button>
                         </Link>
                     </div>
@@ -33,7 +33,7 @@ export default function CakesSection(){
                 <div className={style.cakes_box}>
                     <div className={style.image_container}>
                         <img src={confeiteiro} alt='Confeiteiro' />
-                        <Link to='/projeto/sobre'>
+                        <Link to='/Portfolio-in-React-Vite/projeto/sobre'>
                             <button>Conheça o confeiteiro</button>
                         </Link>
                     </div>
@@ -41,7 +41,7 @@ export default function CakesSection(){
                 <div className={style.cakes_box}>
                     <div className={style.image_container}>
                         <img src={cake_2} alt='Cake' />
-                        <Link to='/projeto/pecaOnline'>
+                        <Link to='/Portfolio-in-React-Vite/projeto/pecaOnline'>
                             <button>Personalize seu bolo</button>
                         </Link>
                     </div>
