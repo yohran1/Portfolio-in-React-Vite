@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.body{
+    background: linear-gradient(45deg, rgb(0, 0, 0), #221133ce);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card_portfolio{
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 90vh;
+}
+.card_portfolio:hover{
+    background-color: rgba(69, 233, 225, 0.024);
+    box-shadow: 8px 8px 15px 12px rgba(42, 124, 145, 0.521);
+}
+.card_portfolio img{
+    width: 180px;
+    border-radius: 40px;
+}
+.card_portfolio h2{
+    margin: 10px auto;
+    color: aquamarine;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_portfolio ul{
+    width: 50%;
+    list-style: none;
+    text-align: center;
+}
+.card_portfolio ul li{
+    border-radius: 5px;
+    margin-bottom: 1em;
+    border: 1px solid aqua;
+}
+.card_portfolio ul a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+.card_portfolio ul a:hover{
+    font-weight: bold;
+    color: black;
+    background-color: aqua;
+}
+.btnHome a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px auto;
+    display: block;
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    border: 1px solid aqua;
+}
+.btnHome a:hover{
+    color: white;
+    background-color: rgba(67, 129, 129, 0.144);
+}
+.card_portfolio p{
+    overflow: auto;
+    height: 400px;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+}
+.card_portfolio p::-webkit-scrollbar{
+    width: 8px;
+}
+.card_portfolio p::-webkit-scrollbar-thumb{
+    background-color: #221133ce;
+    border-radius: 10px;
+}
+.card_portfolio p::-webkit-scrollbar-track{
+    background-color: #3f344b4d;
+    border-radius: 10px;
+}
+@media(max-width: 2000px){
+    .card_portfolio{
+        height: 60vh;
+    }
+}
+@media(max-width: 1500px){
+    .card_portfolio{
+        height: 90vh
+    }
+}
+@media(max-width: 700px){
+    .card_portfolio{
+        width: 80%;
+        height: 90vh;
+    }
+}

@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    /* overflow: hidden; */
+}
+.min-height{
+    min-height: 75%;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.column{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    background: rgba(247, 235, 237, 1)
+}

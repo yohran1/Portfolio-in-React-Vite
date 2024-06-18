@@ -1,0 +1,22 @@
+.slide{
+    width: 50%;
+    margin: 40px auto;
+  }
+  .slide p{
+    margin: 20px auto;
+  }
+  .slide_item{
+    width: 50%;
+    height: 380px;
+    border-radius: 10px;
+  }
+@media(max-width:650px){
+
+    .slides{
+        width: 100%;
+    }
+    .slide_item{
+        width: 100%;
+        height: 300px;
+    }
+}

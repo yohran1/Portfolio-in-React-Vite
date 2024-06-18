@@ -1,0 +1,19 @@
+
+.error h1{
+    margin: 30px auto;
+}
+.error button{
+    width: 20%;
+    border: none;
+}
+.error button a{
+    width: 100%;
+    border: none;
+}
+.error button:hover{
+    background-color: transparent;
+    color: white;
+}
+.error button a:hover{
+    color: white;
+}
